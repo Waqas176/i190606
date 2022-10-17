@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.ass2.i190606_i190515">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.I190606"
+        tools:targetApi="31">
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity23"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity22"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity21"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity20"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity19"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity18"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity17"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity16"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity15"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity14"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity13"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity12"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity11"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity10"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity9"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity8"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity7"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity6"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name="com.ass2.i190606_i190515.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

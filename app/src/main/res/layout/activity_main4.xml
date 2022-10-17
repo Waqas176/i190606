@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity4"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:text="Sign Up"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textAlignment="textEnd"
+            android:layout_marginHorizontal="25dp"
+            android:layout_marginTop="25dp"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="-40dp"
+        >
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginHorizontal="10dp"
+            android:src="@drawable/musifylogo1" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Musify"
+            android:textSize="40dp"
+            android:textColor="@color/white"
+            android:layout_marginHorizontal="30dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="3"
+
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            >
+
+            <ImageButton
+                android:id="@+id/fb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/facebook4"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/purple_700"
+                android:hint="Continue with Facebook"
+                android:textSize="24sp"
+                android:layout_marginRight="15dp"
+                />
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            >
+
+            <ImageButton
+                android:id="@+id/google"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:src="@drawable/google4" />
+
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="#434C11"
+                android:hint="Continue with Google"
+                android:textSize="24sp"
+                android:layout_marginRight="45dp"
+                />
+
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@color/white"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            >
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColorHint="#5E6C0E"
+                android:hint="Create Account"
+                android:textSize="24sp"
+                />
+
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

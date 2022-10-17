@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@color/black"
+            android:src="@drawable/threelines5"
+            />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp"
+            android:background="@color/black"
+            android:src="@drawable/profile5"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="20dp"
+            android:paddingTop="120dp"
+            android:text="Playlists"
+            android:textColor="@color/white"
+            android:textSize="46sp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:paddingHorizontal="15dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/play1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@color/black"
+                android:src="@drawable/playlist5" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/play1"
+                android:text="Playlist 1"
+                android:textColor="@color/white"
+                android:textSize="26dp"
+                android:layout_marginLeft="7dp"
+
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/play2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@color/black"
+                android:src="@drawable/playlist5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Playlist 2"
+                android:textSize="26dp"
+                android:textColor="@color/white"
+                android:layout_below="@+id/play2"
+                android:layout_marginLeft="7dp"
+
+
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/play3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@color/black"
+                android:src="@drawable/playlist5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Playlist 3"
+                android:textSize="26dp"
+                android:textColor="@color/white"
+                android:layout_below="@+id/play3"
+                android:layout_marginLeft="7dp"
+
+
+                />
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:paddingLeft="20dp"
+            android:paddingTop="40dp"
+            android:text="Artists"
+            android:textColor="@color/white"
+            android:textSize="46sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:paddingHorizontal="15dp"
+        android:orientation="horizontal"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/artist1"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@color/black"
+                android:src="@drawable/artist5" />
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artist 1"
+                android:textSize="26dp"
+                android:textColor="@color/white"
+                android:layout_below="@+id/artist1"
+                android:layout_marginLeft="20dp"
+
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/artist2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@color/black"
+                android:src="@drawable/artist5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/artist2"
+                android:text="Artist 2"
+                android:textColor="@color/white"
+                android:textSize="26dp"
+                android:layout_marginLeft="20dp"
+
+
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/artist3"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:background="@color/black"
+                android:src="@drawable/artist5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Artist 3"
+                android:textSize="26dp"
+                android:textColor="@color/white"
+                android:layout_below="@+id/artist3"
+                android:layout_marginLeft="20dp"
+
+
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="97dp"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:text="Song Name"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/fastbackward5"
+            android:layout_marginStart="90dp"
+            />
+
+        <ImageView
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/playone5"
+        />
+
+        <ImageView
+        android:layout_width="70dp"
+        android:layout_height="50dp"
+        android:src="@drawable/fastforward5"
+            android:layout_marginTop="11dp"
+        />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#633939"
+        android:weightSum="4">
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/heart5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Liked"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="27dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/plus5"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="33dp"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/search5"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Search"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="23dp"
+                />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:src="@drawable/clock5"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Listen Later"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="7dp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
