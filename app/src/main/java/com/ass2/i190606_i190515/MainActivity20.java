@@ -12,9 +12,9 @@ public class MainActivity20 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main20);
-        new Handler().postDelayed(() -> {
-            startActivity(new Intent(this, MainActivity21.class));
-            finish();
-        }, 2000);
+//        new Handler().postDelayed(() -> {
+//            startActivity(new Intent(this, MainActivity21.class));
+//            finish();
+//        }, 2000);
     }
 }
