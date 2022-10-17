@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.ass2.i190606_i190515">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -14,73 +15,76 @@
         android:theme="@style/Theme.I190606"
         tools:targetApi="31">
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity23"
+            android:name=".MusicList"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity22"
+            android:name=".MainActivity23"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity21"
+            android:name=".MainActivity22"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity20"
+            android:name=".MainActivity21"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity19"
+            android:name=".MainActivity20"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity18"
+            android:name=".MainActivity19"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity17"
+            android:name=".MainActivity18"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity16"
+            android:name=".MainActivity17"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity15"
+            android:name=".MainActivity16"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity14"
+            android:name=".MainActivity15"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity13"
+            android:name=".MainActivity14"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity12"
+            android:name=".MainActivity13"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity11"
+            android:name=".MainActivity12"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity10"
+            android:name=".MainActivity11"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity9"
+            android:name=".MainActivity10"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity8"
+            android:name=".MainActivity9"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity7"
+            android:name=".MainActivity8"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity6"
+            android:name=".MainActivity7"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity4"
+            android:name=".MainActivity6"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity5"
+            android:name=".MainActivity4"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity3"
+            android:name=".MainActivity5"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity2"
+            android:name=".MainActivity3"
             android:exported="false" />
         <activity
-            android:name="com.ass2.i190606_i190515.MainActivity"
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
