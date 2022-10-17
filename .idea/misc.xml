@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/drawable/addplaylist.xml" value="0.1295" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/drawable/blackplaylistbackground.xml" value="0.121" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/drawable/comments.xml" value="0.1" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/drawable/gendercircle.xml" value="0.1175" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/drawable/playlist2.xml" value="0.121" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/drawable/playlistmusic.xml" value="0.121" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/drawable/sign_upbutton.xml" value="0.1175" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/drawable/sing_upbutton.xml" value="0.1175" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/drawable/upload.xml" value="0.1295" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main10.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main11.xml" value="0.17760416666666667" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main12.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main13.xml" value="0.18" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main14.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main15.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main16.xml" value="0.25" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main17.xml" value="0.18" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main18.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main19.xml" value="0.20123203285420946" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main2.xml" value="0.18" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main20.xml" value="0.15677083333333333" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main21.xml" value="0.1" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main22.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main23.xml" value="0.15677083333333333" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main3.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main4.xml" value="0.22" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main5.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main6.xml" value="0.18" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main7.xml" value="0.22" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main8.xml" value="0.22" />
+        <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/layout/activity_main9.xml" value="0.18854166666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
