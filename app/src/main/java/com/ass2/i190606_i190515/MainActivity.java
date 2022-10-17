@@ -10,13 +10,13 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
 
-
+    Button abcd;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
             new Handler().postDelayed(() -> {
-                startActivity(new Intent(this, MainActivity2.class));
+                startActivity(new Intent(this, MusicList.class));
                 finish();
             }, 2000);
 

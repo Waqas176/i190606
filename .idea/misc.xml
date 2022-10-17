@@ -3,6 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/drawable/list_songs.xml" value="0.1" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main11.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main13.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main14.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main15.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main16.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main17.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main18.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main19.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main2.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main20.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main21.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main22.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main23.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main3.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main4.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main5.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main6.xml" value="0.264" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_main7.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/activity_music_list.xml" value="0.2" />
+        <entry key="..\:/Users/Admin/AndroidStudioProjects/Assignment2/app/src/main/res/layout/list_view_songs.xml" value="0.2" />
         <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/drawable/addplaylist.xml" value="0.1295" />
         <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/drawable/blackplaylistbackground.xml" value="0.121" />
         <entry key="..\:/Users/Style Setters/AndroidStudioProjects/i190606/app/src/main/res/drawable/comments.xml" value="0.1" />

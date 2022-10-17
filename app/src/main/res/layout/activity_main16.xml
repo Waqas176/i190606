@@ -12,26 +12,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:weightSum="4"
         >
 
         <TextView
+            android:layout_weight="3.5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Song Title"
+            android:id="@+id/songtitle"
             android:textColor="@color/white"
-            android:textSize="35dp"
+            android:textSize="20sp"
             android:layout_marginVertical="10dp"
             android:layout_marginLeft="30dp"
+            android:maxLength="10"
             />
 
         <ImageButton
+            android:layout_weight="0.5"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:src="@drawable/triangle16"
             android:background="@color/black"
-            android:layout_marginLeft="130dp"
-
-
             android:scaleType="fitXY"
             android:maxHeight="80dp"
             android:maxWidth="70dp"
@@ -93,10 +95,12 @@
             android:background="@color/black"
             android:src="@drawable/fastbackward5"
             android:layout_marginTop="9dp"
+            android:id="@+id/back"
 
             />
 
         <ImageButton
+            android:id="@+id/middle"
             android:layout_marginTop="9dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -105,6 +109,7 @@
             />
 
         <ImageButton
+            android:id="@+id/next"
              android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/black"
@@ -120,20 +125,23 @@
         android:background="@color/black"
         android:orientation="vertical"
         >
-        <ImageButton
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:src="@drawable/line16"
-            android:backgroundTint="@color/black"
-            />
+      <SeekBar
+          android:layout_width="300dp"
+          android:layout_gravity="center"
+          android:layout_height="30dp"
+          android:background="@color/black"
+          android:id="@+id/seekbar"
+
+          />
         
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="0:00"
+          android:text="0"
             android:textSize="20sp"
             android:textColor="@color/white"
             android:layout_marginHorizontal="70dp"
+            android:id="@+id/time"
             />
 
     </LinearLayout>
