@@ -25,7 +25,15 @@ public class MainActivity16 extends AppCompatActivity {
     MediaPlayer player;
     String TXTSONG;
 
-SeekBar seek;
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        player.stop();
+        player.release();
+        seekaudio.interrupt();
+    }
+
+    SeekBar seek;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -47,12 +55,45 @@ SeekBar seek;
         player=MediaPlayer.create(this,uri);
         player.start();
         seek.setMax(player.getDuration());
-        seek.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+        middle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(player.isPlaying()){
 
+                    middle.setImageResource(R.drawable.playone5);
+                    player.pause();
+                }
+                else{
+                    middle.setImageResource(R.drawable.pause14);
+                    player.start();
+
+                }
+            }
+        });
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                player.stop();
+                player.release();
+                if(i!=0){
+                i=i-1;
+                }
+                else{
+                    i=songslist.size()-1;
+                }
+                Uri uri=Uri.parse(songslist.get(i).toString());
+                player=MediaPlayer.create(getApplicationContext(),uri);
+                player.start();
+                seek.setMax(player.getDuration());
+                TXTSONG=songslist.get(i).getName().toString();
+                songT.setText(TXTSONG);
+
+            }
+        });
+        seek.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
                 Time.setVisibility(View.VISIBLE);
-
             }
 
             @Override

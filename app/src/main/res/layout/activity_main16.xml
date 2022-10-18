@@ -6,18 +6,20 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity16"
     android:orientation="vertical"
-    android:background="@color/black">
+    android:background="@color/black"
+    android:weightSum="16">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:orientation="horizontal"
         android:weightSum="4"
+        android:layout_weight="1"
         >
 
         <TextView
             android:layout_weight="3.5"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="Song Title"
             android:id="@+id/songtitle"
@@ -38,20 +40,14 @@
             android:maxHeight="80dp"
             android:maxWidth="70dp"
             android:adjustViewBounds="true"
-
-
-
-
-
-
-
             />
 
     </LinearLayout>
 
     <LinearLayout
+        android:layout_weight="9"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:orientation="vertical"
         >
 
@@ -82,8 +78,9 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:orientation="horizontal"
         >
 
@@ -94,18 +91,17 @@
             android:layout_height="wrap_content"
             android:background="@color/black"
             android:src="@drawable/fastbackward5"
-            android:layout_marginTop="9dp"
+
             android:id="@+id/back"
 
             />
 
         <ImageButton
             android:id="@+id/middle"
-            android:layout_marginTop="9dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/black"
-            android:src="@drawable/playone5"
+            android:src="@drawable/pause14"
             />
 
         <ImageButton
@@ -120,8 +116,9 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_weight="2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:background="@color/black"
         android:orientation="vertical"
         >
@@ -147,8 +144,9 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_weight="1"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:orientation="horizontal"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="40dp"
@@ -267,8 +265,9 @@
     </LinearLayout>
 
     <LinearLayout
+        android:layout_weight="2"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:orientation="horizontal"
         android:background="#633939"
         android:layout_marginTop="30dp"
